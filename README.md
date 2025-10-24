@@ -1,6 +1,6 @@
 # 🚀 V Terminal Applications
 
-A **professional collection of high-quality terminal applications** written in V, designed for productivity, learning, and daily use. Each application is **self-contained**, **thoroughly tested**, and **production-ready**.
+A **professional collection of high-quality terminal applications** written in V, designed for productivity, learning, and daily use. Each application is **self-contained**, **tested**, and **almost production-ready**.
 
 ## 🌟 Featured Applications
 
@@ -207,7 +207,9 @@ We welcome contributions! Here's how you can help:
 
 ## 📄 License
 
-This project is open source and available under the [MIT License](LICENSE).
+This project is released into the **public domain** using [The Unlicense](LICENSE). You are free to use, modify, and distribute this software for any purpose without restrictions.
+
+For more information, please refer to <https://unlicense.org/>
 
 ## 🙏 Acknowledgments
 
