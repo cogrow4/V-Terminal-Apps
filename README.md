@@ -1,82 +1,82 @@
-# 🚀 V Terminal Applications
+#  V Terminal Applications
 
 A **professional collection of high-quality terminal applications** written in V, designed for productivity, learning, and daily use. Each application is **self-contained**, **tested**, and **almost production-ready**.
 
 ## 🌟 Featured Applications
 
-### 1. 📝 tasks ⭐
+### 1. 📝 tasks 
 A **feature-rich task management system** with advanced productivity features.
-- ✅ **Smart task management** with completion tracking
-- 💾 **Persistent storage** with JSON database
-- 📊 **Progress analytics** and completion statistics
-- 🎯 **Priority system** and due date tracking
-- 🔍 **Advanced search** and filtering capabilities
-- 🎨 **Clean, intuitive interface** with emoji indicators
+-  **Smart task management** with completion tracking
+-  **Persistent storage** with JSON database
+-  **Progress analytics** and completion statistics
+-  **Priority system** and due date tracking
+-  **Advanced search** and filtering capabilities
+-  **Clean, intuitive interface** with emoji indicators
 
-### 2. 🧮 calc ⭐
+### 2. 🧮 calc 
 A **powerful calculator** with scientific and programming capabilities.
-- 🔢 **Basic arithmetic** (+, -, *, /, ^ for power)
-- 🧪 **Scientific functions** (sqrt, sin, cos, tan with degree input)
-- 💻 **Programming features** (logarithmic, exponential functions)
-- 🛡️ **Robust error handling** for invalid inputs
-- 📱 **Interactive interface** with clear instructions
-- ⚡ **High precision** floating-point calculations
+-  **Basic arithmetic** (+, -, *, /, ^ for power)
+-  **Scientific functions** (sqrt, sin, cos, tan with degree input)
+-  **Programming features** (logarithmic, exponential functions)
+-  **Robust error handling** for invalid inputs
+-  **Interactive interface** with clear instructions
+-  **High precision** floating-point calculations
 
 ### 3. 📓 notes ⭐
 A **comprehensive note-taking application** for organized knowledge management.
-- 📝 **Rich text notes** with multi-line support
-- 🔍 **Full-text search** across titles and content
-- ⏰ **Timestamp tracking** (creation and modification times)
-- 📂 **Category organization** and tagging system
-- 💾 **Persistent storage** with JSON export
-- 🎨 **Markdown-like formatting** with clean display
+-  **Rich text notes** with multi-line support
+-  **Full-text search** across titles and content
+-  **Timestamp tracking** (creation and modification times)
+-  **Category organization** and tagging system
+-  **Persistent storage** with JSON export
+-  **Markdown-like formatting** with clean display
 
-### 4. 📁 br ⭐
+### 4. 📁 br 
 A **modern terminal file browser** with intuitive navigation.
-- 🗂️ **Directory tree navigation** with visual indicators
-- 📊 **File information** display (size, permissions, dates)
-- 🔍 **Quick file search** and filtering
-- 📱 **Responsive interface** with keyboard shortcuts
-- 🎯 **Bookmark system** for frequently accessed directories
-- 💫 **Clean, fast performance** optimized for large directories
+-  **Directory tree navigation** with visual indicators
+-  **File information** display (size, permissions, dates)
+-  **Quick file search** and filtering
+-  **Responsive interface** with keyboard shortcuts
+-  **Bookmark system** for frequently accessed directories
+-  **Clean, fast performance** optimized for large directories
 
-### 5. 🎯 quiz ⭐
+### 5. 🎯 quiz 
 An **interactive quiz game** with educational and entertainment value.
-- 📚 **Multiple categories** (General Knowledge, Science & Technology, Programming)
-- 🎚️ **Adaptive difficulty** (Easy, Medium, Hard with dynamic scoring)
-- 🏆 **Score tracking** and performance analytics
-- 💡 **Explanatory feedback** for learning
-- 🎲 **Randomized questions** for replay value
-- 📈 **Progress indicators** and achievement system
+-  **Multiple categories** (General Knowledge, Science & Technology, Programming)
+-  **Adaptive difficulty** (Easy, Medium, Hard with dynamic scoring)
+-  **Score tracking** and performance analytics
+-  **Explanatory feedback** for learning
+-  **Randomized questions** for replay value
+-  **Progress indicators** and achievement system
 
-### 6. 💰 cash ⭐
+### 6. 💰 cash 
 A **comprehensive budget tracker** with real-time financial monitoring.
-- 💳 **Income and expense tracking** with categories
-- 📊 **Real-time budget monitoring** with visual alerts
-- 🏦 **Financial reports** and spending analysis
-- 🎯 **Budget limits** with percentage tracking
-- 🔍 **Advanced search** and transaction filtering
-- 💾 **Persistent financial data** with JSON storage
+-  **Income and expense tracking** with categories
+-  **Real-time budget monitoring** with visual alerts
+-  **Financial reports** and spending analysis
+-  **Budget limits** with percentage tracking
+-  **Advanced search** and transaction filtering
+-  **Persistent financial data** with JSON storage
 
 ### 7. 💬 chat 🚧 **WIP**
 A **peer-to-peer terminal chat client** for network messaging.
-- 🌐 **P2P networking** via IP address configuration
-- 👥 **Multi-user chat rooms** with real-time messaging
-- 🔐 **User management** and connection handling
-- 📡 **TCP-based protocol** with JSON message format
-- 🎯 **Room-based organization** and user discovery
-- ⚡ **Low-latency messaging** optimized for terminal use
+-  **P2P networking** via IP address configuration
+-  **Multi-user chat rooms** with real-time messaging
+-  **User management** and connection handling
+-  **TCP-based protocol** with JSON message format
+-  **Room-based organization** and user discovery
+-  **Low-latency messaging** optimized for terminal use
 
-### 8. ⏰ pom ⭐
+### 8. ⏰ pom 
 A **Pomodoro productivity timer** with advanced session management.
-- ⏱️ **Customizable intervals** (work, short break, long break)
-- 📊 **Session statistics** and productivity tracking
-- 🔔 **Desktop notifications** and visual indicators
-- 🎯 **Focus mode** with distraction prevention
-- 📈 **Progress analytics** and streak tracking
-- ⚙️ **Flexible configuration** for different workflows
+-  **Customizable intervals** (work, short break, long break)
+-  **Session statistics** and productivity tracking
+-  **Desktop notifications** and visual indicators
+-  **Focus mode** with distraction prevention
+-  **Progress analytics** and streak tracking
+-  **Flexible configuration** for different workflows
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 - [V programming language](https://vlang.io/) installed on your system
@@ -136,14 +136,14 @@ cd v_terminal_apps/chat && v run chat.v
 cd v_terminal_apps/pom && v run pom.v
 ```
 
-## 📊 Project Statistics
+##  Project Statistics
 
-- **🏗️ Built with:** V Programming Language
-- **📦 Total Applications:** 8 (7 complete, 1 in development)
-- **💾 Storage:** JSON-based persistence where applicable
-- **🌐 Compatibility:** Linux, macOS, Windows
-- **⚡ Performance:** Optimized for speed and low resource usage
-- **🔒 Quality:** Comprehensive error handling and input validation
+- ** Built with:** V Programming Language
+- ** Total Applications:** 8 (7 complete, 1 in development)
+- ** Storage:** JSON-based persistence where applicable
+- ** Compatibility:** Linux, macOS, Windows, Android
+- ** Performance:** Optimized for speed and low resource usage
+- ** Quality:** Comprehensive error handling and input validation
 
 ## 🛠️ Technical Features
 
