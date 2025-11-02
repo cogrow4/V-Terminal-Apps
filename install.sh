@@ -49,7 +49,7 @@ fi
 for program in "${PROGRAMS[@]}"; do
     echo "Would you like to install $program? (Y/n)"
     read -r response
-    response=${response:-Y}
+    response=${response:-n}
     if [[ $response =~ ^[Yy]$ ]]; then
         echo "Building $program..."
         if [ -d "$program" ] && [ -f "$program/$program.v" ]; then
