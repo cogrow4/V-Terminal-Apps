@@ -11,7 +11,7 @@ The installation script provides a convenient way to set up the V Terminal Appli
 Run the following command in your terminal to execute the installation script:
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/V-Terminal-Apps/main/install.sh | bash
+curl -fsSL https://raw.githubusercontent.com/cogrow4/V-Terminal-Apps/refs/heads/master/install.sh | bash
 ```
 
 The script will prompt you to confirm installation for each program individually, allowing you to choose which applications to install.
@@ -25,7 +25,7 @@ If you prefer to install manually, follow these step-by-step instructions:
 
 2. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/V-Terminal-Apps.git
+   git clone https://github.com/cogrow4/V-Terminal-Apps
    cd V-Terminal-Apps
    ```
 
