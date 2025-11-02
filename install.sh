@@ -49,12 +49,12 @@ fi
 for program in "${PROGRAMS[@]}"; do
     echo "Would you like to install $program? (Y/n)"
     read -r response
-    response=${response:-n}
+    response=${response:-Y}
     if [[ $response =~ ^[Yy]$ ]]; then
         echo "Building $program..."
         if [ -d "$program" ] && [ -f "$program/$program.v" ]; then
             cd "$program"
-            if ! v build "$program.v"; then
+            if ! v "$program.v"; then
                 echo "Error: Failed to build $program"
                 cd "$TEMP_DIR"
                 continue
@@ -62,7 +62,7 @@ for program in "${PROGRAMS[@]}"; do
             mv "$program" ~/bin/ || echo "Warning: Failed to move $program to ~/bin"
             cd "$TEMP_DIR"
         elif [ -f "$program.v" ]; then
-            if ! v build "$program.v"; then
+            if ! v "$program.v"; then
                 echo "Error: Failed to build $program"
                 continue
             fi
@@ -77,7 +77,6 @@ for program in "${PROGRAMS[@]}"; do
     fi
 done
 
-# Check and add ~/bin to PATH permanently
 SHELL_NAME=$(basename "$SHELL")
 if [[ "$SHELL_NAME" == "zsh" ]]; then
     PROFILE_FILE="$HOME/.zshrc"
