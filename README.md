@@ -76,6 +76,36 @@ A **Pomodoro productivity timer** with advanced session management.
 -  **Progress analytics** and streak tracking
 -  **Flexible configuration** for different workflows
 
+## Installation Script
+
+The installation script provides a convenient way to set up the V Terminal Applications on your system. It automates the process of installing the V programming language, cloning the repository, building each application, and placing the executables in your `~/bin` directory for easy access.
+
+### What the Script Does
+- Installs the V programming language from the official repository
+- Clones the V Terminal Applications repository to a temporary directory
+- Builds and installs each available program to `~/bin` (ensuring `~/bin` is in your PATH)
+- Cleans up temporary files after installation
+
+### Available Programs
+The script offers installation for the following applications:
+- `tasks` - Task management system
+- `calc` - Scientific calculator
+- `notes` - Note-taking application
+- `br` - Terminal file browser
+- `quiz` - Interactive quiz game
+- `cash` - Budget tracker
+- `chat` - P2P chat client (WIP)
+- `pom` - Pomodoro timer
+
+### Using the Script
+Run the following command in your terminal to execute the installation script:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/yourusername/V-Terminal-Apps/main/install.sh | bash
+```
+
+The script will prompt you to confirm installation for each program individually, allowing you to choose which applications to install.
+
 ##  Getting Started
 
 ### Prerequisites
