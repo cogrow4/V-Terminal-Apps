@@ -2,6 +2,61 @@
 
 A **professional collection of high-quality terminal applications** written in V, designed for productivity, learning, and daily use. Each application is **self-contained**, **tested**, and **almost production-ready**.
 
+## Installation Script
+
+The installation script provides a convenient way to set up the V Terminal Applications on your system. It automates the process of installing the V programming language, cloning the repository, building each application, and placing the executables in your `~/bin` directory for easy access.
+
+### Quick Install (Automated)
+
+Run the following command in your terminal to execute the installation script:
+
+```bash
+curl -fsSL https://raw.githubusercontent.com/yourusername/V-Terminal-Apps/main/install.sh | bash
+```
+
+The script will prompt you to confirm installation for each program individually, allowing you to choose which applications to install.
+
+### Manual Installation
+
+If you prefer to install manually, follow these step-by-step instructions:
+
+1. **Install the V programming language manually:**
+   Follow the official installation instructions at [V programming language](https://vlang.io/) to install V on your system.
+
+2. **Clone the repository:**
+   ```bash
+   git clone https://github.com/yourusername/V-Terminal-Apps.git
+   cd V-Terminal-Apps
+   ```
+
+3. **Build each program:**
+   For each application you want to install, navigate to its directory and compile it using V:
+   ```bash
+   cd <application_name>  # Replace <application_name> with the desired app, e.g., cd tasks
+   v <application_name>.v  # This compiles the program into an executable
+   ```
+
+4. **Add executables to PATH:**
+   Move the compiled executables to a directory in your PATH (such as `~/bin`) and ensure it's accessible:
+   ```bash
+   mkdir -p ~/bin
+   cp <application_name> ~/bin/  # For each built program
+   # Add the following to your shell profile (e.g., ~/.bashrc or ~/.zshrc) if ~/bin is not already in PATH:
+   # export PATH="$HOME/bin:$PATH"
+   ```
+
+### Available Programs
+
+The following applications are available for installation:
+- `tasks` - Task management system
+- `calc` - Scientific calculator
+- `notes` - Note-taking application
+- `br` - Terminal file browser
+- `quiz` - Interactive quiz game
+- `cash` - Budget tracker
+- `chat` - P2P chat client (WIP)
+- `pom` - Pomodoro timer
+
 ## 🌟 Featured Applications
 
 ### 1. 📝 tasks 
@@ -76,35 +131,6 @@ A **Pomodoro productivity timer** with advanced session management.
 -  **Progress analytics** and streak tracking
 -  **Flexible configuration** for different workflows
 
-## Installation Script
-
-The installation script provides a convenient way to set up the V Terminal Applications on your system. It automates the process of installing the V programming language, cloning the repository, building each application, and placing the executables in your `~/bin` directory for easy access.
-
-### What the Script Does
-- Installs the V programming language from the official repository
-- Clones the V Terminal Applications repository to a temporary directory
-- Builds and installs each available program to `~/bin` (ensuring `~/bin` is in your PATH)
-- Cleans up temporary files after installation
-
-### Available Programs
-The script offers installation for the following applications:
-- `tasks` - Task management system
-- `calc` - Scientific calculator
-- `notes` - Note-taking application
-- `br` - Terminal file browser
-- `quiz` - Interactive quiz game
-- `cash` - Budget tracker
-- `chat` - P2P chat client (WIP)
-- `pom` - Pomodoro timer
-
-### Using the Script
-Run the following command in your terminal to execute the installation script:
-
-```bash
-curl -fsSL https://raw.githubusercontent.com/yourusername/V-Terminal-Apps/main/install.sh | bash
-```
-
-The script will prompt you to confirm installation for each program individually, allowing you to choose which applications to install.
 
 ##  Getting Started
 
